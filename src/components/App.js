@@ -1,8 +1,8 @@
 import './App.css';
 import React , {useState ,useEffect} from 'react';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header';
-import { v4 as uuid } from "uuid";
+// import { v4 as uuid } from "uuid";
 import AddContact from './AddContact';
 import ContactList from './ContactList';
 import api from '../api/contacts';
@@ -11,7 +11,7 @@ import api from '../api/contacts';
 
 function App() {
 
-  const LOCAL_STORAGE_KEY = "contacts";
+  // const LOCAL_STORAGE_KEY = "contacts";
   //react state
   const [contacts, setContacts] = useState([]);
 
