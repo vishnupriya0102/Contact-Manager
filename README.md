@@ -1,6 +1,6 @@
 # Deployed site : 
 ---
-https://contact-manager-v.netlify.app/add
+https://contact-manager-v.netlify.app
 ---
 
 
