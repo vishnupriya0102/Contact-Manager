@@ -34,7 +34,6 @@ const ContactList = (props) => {
     return (
       <div class="main">
 
-        <h1></h1>
         <h2>
 
           ContactList
